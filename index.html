@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website1</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@100;200;300;400;500;600;700&family=Roboto+Slab:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/26b0218e32.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <header class="my-header">
+        <div class="hero-container">
+            <nav>
+                <ul class="my-nav">
+                    <li><a href="#" class="nav-links">home</a></li>
+                    <li><a href="#about-us" class="nav-links">about us</a></li>
+                    <li><a href="#services" class="nav-links">services</a></li>
+                    <li><a href="#contact" class="nav-links"> contact</a></li>
+                </ul>
+            </nav>
+                <div class="hero-text">
+                    <h1>welcome to my website</h1>
+                    <p>This is my first static website with html and css.</p>
+                </div>
+        </div>
+    </header>
+
+    <section class="about-us-section" id="about-us">
+        <article>
+            <div class="about-us-div">
+                <h2>about us</h2>
+                <p>Fusce eu tortor molestie, vulputate erat et, sodales quam. Cras pellentesque venenatis erat, non tincidunt lacus commodo eget. Integer molestie nunc tortor, eget vehicula lectus laoreet ac. Sed accumsan, purus dapibus tristique egestas, lorem arcu dignissim enim, sit amet venenatis lacus ligula non massa. Duis quam dolor, tempor ut nisi quis, iaculis semper purus.</p>
+                <p>In ante diam, vehicula et orci quis, fermentum tempor neque. Cras condimentum dolor eget augue molestie varius. Mauris ullamcorper semper felis in suscipit. Sed eget venenatis quam.</p>
+            </div>
+            <div class="about-us-div">
+                <img src="./imgs/02-about-us.jpg" alt="about us image">
+            </div>
+        </article>
+    </section>
+
+    <main id="services">
+        <div class="main-container">
+            <h2>Services</h2>
+            <section>
+                <div class="services-cards">
+                    <h3>service 1</h3>
+                    <p>Sed ac molestie felis. Aliquam ultricies, velit vitae pulvinar volutpat, mi nunc tempus ligula, non tincidunt lacus mauris at ipsum. Donec blandit fringilla est eget pellentesque. Phasellus nec porta ligula. Pellentesque nibh ipsum, mollis ac congue nec, tempor et turpis. Fusce id pharetra dolor.</p>
+                </div>
+                <div class="services-cards">
+                    <h3>service 2</h3>
+                    <p>Proin tempus leo dui, eu faucibus diam eleifend eget. In ultrices sollicitudin accumsan. Integer tincidunt tempor neque, eget suscipit metus. Vestibulum vestibulum dapibus felis, sed venenatis urna tempor sit amet.</p>
+                </div>
+                <div class="services-cards">
+                    <h3>service 3</h3>
+                    <p>Curabitur euismod elit ut efficitur blandit. Nulla fermentum posuere arcu vitae hendrerit. In egestas laoreet tincidunt. Suspendisse diam enim, sagittis id massa eu, aliquam tempor orci.</p>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <section class="contact-section" id="contact">
+        <h2 class="form-tittle">contact us</h2>
+        <form action="#" class="my-form">
+            <div class="form-inputs">
+                <label for="your-name">your name</label>
+                <input type="text" id="your-name" name="your-name">
+            </div>
+            <div class="form-inputs">
+                <label for="email">your email</label>
+                <input type="text" id="email" name="email">
+            </div>
+            <div class="form-inputs">
+                <label for="your-message">your message</label>
+                <textarea name="your-message" id="your-message" cols="40" rows="5"></textarea>
+            </div>
+            <div class="form-button-div">
+                <button type="submit" class="form-button">submit</button>
+            </div>
+        </form>
+    </section>
+
+    <footer>
+        <div class="footer-div">
+            <p><i class="fa fa-copyright"> 2022</i> YLWEBDEV | all rights reserved</p>
+            <div class="footer-social">
+                <h4>follow us on social media: </h3>
+                <ul>
+                    <li><a href="#" class="social-icons"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#" class="social-icons"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#" class="social-icons"><i class="fab fa-youtube"></i></a></li>
+                    <li><a href="#" class="social-icons"><i class="fab fa-instagram"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

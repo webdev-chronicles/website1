@@ -1,0 +1,236 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body{
+    background-color: rgba(277, 176, 86, 0.1);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto Slab', serif;
+}
+
+p, ul, span, a {
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+}
+
+.my-header {
+    background-image: linear-gradient(140deg, rgba(77, 170, 255, 0.80), rgba(237, 176, 86, .89)), url("../imgs/01-hero-image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 65vh;
+   
+}
+
+.my-nav {
+    margin: 0;
+    padding: 1.8em 5%;
+    list-style: none;
+    display: flex;
+    background-color: rgba(143, 91, 0, .65);
+}
+
+.nav-links {
+    color: white;
+    text-decoration: none;
+    margin-right: 1.2em;
+    text-transform: capitalize;
+}
+
+.nav-links:hover {
+    text-decoration: underline;
+}
+
+.nav-links:last-child{
+    text-align: right;
+}
+
+.hero-text  {
+    text-align: center;
+    margin-top: 10%;
+}
+
+.hero-text h1 {
+    color: rgba(0, 102, 219, 0.86);
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 4rem;
+}
+
+.hero-text p {
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+}
+
+/*
+*About us section
+*/
+
+.about-us-section{
+    width: 80%;
+    margin: 5em auto;
+}
+
+.about-us-section article{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.about-us-div img{
+    max-width: 100%;
+    height: auto;
+}
+
+.about-us-div{
+    flex-basis: calc(50% - 3em);
+}
+
+.about-us-div h2{
+    margin-top: 0;
+    text-transform: capitalize;
+    font-size: 3rem;
+    color: rgba(86, 112, 143, 1);
+}
+
+.about-us-div p {
+    line-height: 1.4em;
+    color: black;
+}
+
+
+/*
+*Services Section
+*/
+
+main{
+    background-color: #ffffff;
+    padding-bottom: 5em;
+}
+
+.main-container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.main-container h2 {
+    text-align: center;
+    color:rgba(86, 112, 143, 1);
+    font-size: 3rem;
+    padding-top: 1.5em;
+}
+
+.main-container section {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.services-cards{
+    flex-basis: 30%;
+    background-color: rgba(0, 102, 219, 0.10);
+    padding: 2em 1em 5em 1em;
+}
+
+.services-cards h3{
+    text-transform: capitalize;
+    color: rgba(0, 0, 0, 0.80);
+    font-size: 1.3rem;
+}
+
+.services-cards p{
+    color: rgb(58, 58, 58);
+    line-height: 1.5em;
+}
+
+/*
+* form section
+*/
+
+.contact-section{
+    margin-bottom: 5em;
+}
+
+.form-tittle{
+    font-size: 3rem;
+    text-transform: capitalize;
+    color: rgba(86, 112, 143, 1);
+    text-align: center;
+    padding-top: 0.5em;
+}
+
+.my-form{
+    width: 50%;
+    margin: 0 auto;
+    border: 1px solid rgba(86, 112, 143, 1);
+    padding: 2em;
+}
+
+.form-inputs{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.5em;
+}
+
+.form-inputs label{
+    width: 15%;
+}
+
+.form-inputs input, textarea{
+    width: 35%;
+}
+
+.form-button-div{
+    position: relative;
+    padding: 1em 0;
+}
+
+.form-button{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+footer{
+    background-color: rgba(143, 91, 0, .99);
+    color: #ffffff;
+}
+
+.footer-div{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-social{
+    display: flex;
+    align-items: center;
+}
+
+.footer-social h4{
+    font-size: 1.1rem;
+    text-transform: capitalize;
+}
+
+footer ul{
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin-left: 1em;
+}
+
+.fab {
+    color: #ffffff;
+    font-size: 1.3em;
+    padding-right: 0.5em;
+}
+
+
+
